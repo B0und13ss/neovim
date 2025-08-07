@@ -9,7 +9,7 @@ vim.opt.smarttab = true               --rather than deleteing spaces, delete who
 
 vim.wo.wrap = true                    --word wrap
 vim.opt.showmode = false              --hide mode since it is in lualine
-vim.opt.cmdheight = 0                 --hide default status bar when not typing a command
+vim.opt.cmdheight = 1                 
 vim.opt.mouse = 'a'
 vim.opt.undofile = true               --store undo history
 vim.opt.termguicolors = true
