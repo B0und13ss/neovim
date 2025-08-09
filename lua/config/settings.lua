@@ -7,7 +7,10 @@ vim.opt.breakindent = true            --wrapped lines will preserve the indent o
 vim.autoindent = true                 --keep indent from previous line
 vim.opt.smarttab = true               --rather than deleteing spaces, delete whole tabs
 
-vim.wo.wrap = false                    --word wrap
+vim.opt.textwidth = 120 -- or your desired maximum line length
+vim.opt.wrap = true                    --word wrap
+vim.opt.linebreak = true                    --word wrap
+
 vim.opt.showmode = false              --hide mode since it is in lualine
 vim.opt.cmdheight = 1                 
 vim.opt.mouse = 'a'
