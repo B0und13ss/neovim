@@ -21,8 +21,8 @@ vim.keymap.set("n", "<S-l>", ":tabn<CR>", {desc = "Next tab"})
 
 vim.keymap.set("n", "<leader>pv", ":vnew<CR>", {desc = "Split [p]ane [v]ertical"})
 vim.keymap.set("n", "<leader>ph", ":new<CR>", {desc = "Split [p]ane [h]orizontal"})
+
 vim.keymap.set('n', '<leader>h', '<C-w><C-h>', { desc = 'Move focus to the left window' })
 vim.keymap.set('n', '<leader>l', '<C-w><C-l>', { desc = 'Move focus to the right window' })
 vim.keymap.set('n', '<leader>j', '<C-w><C-j>', { desc = 'Move focus to the lower window' })
 vim.keymap.set('n', '<leader>k', '<C-w><C-k>', { desc = 'Move focus to the upper window' })
--- vim.keymap.set("n", "<leader>cc", "gcc")             FOR SOME REASON THIS WONT WORK???

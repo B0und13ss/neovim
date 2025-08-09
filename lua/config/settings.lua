@@ -7,7 +7,7 @@ vim.opt.breakindent = true            --wrapped lines will preserve the indent o
 vim.autoindent = true                 --keep indent from previous line
 vim.opt.smarttab = true               --rather than deleteing spaces, delete whole tabs
 
-vim.wo.wrap = true                    --word wrap
+vim.wo.wrap = false                    --word wrap
 vim.opt.showmode = false              --hide mode since it is in lualine
 vim.opt.cmdheight = 1                 
 vim.opt.mouse = 'a'
@@ -21,8 +21,10 @@ end)
 vim.opt.number = true                 --line numbers
 vim.opt.relativenumber = true         --relative line numbers
 vim.opt.scrolloff = 10                --keep n number of lines on the screen when scrolling
+vim.opt.cursorline = true
 
 vim.g.have_nerd_font = true
+vim.opt.hlsearch = true
 
 vim.opt.ignorecase = true             --search any case
 vim.opt.smartcase = true              --when using a caps, search using specific case
